@@ -19,7 +19,9 @@ body{
     text-decoration: none;
     font-size: 17px;
 }
-
+.nav-link:hover, h5:hover{
+    color: hsl(5, 85%, 63%);;
+}
 .nav-item{
     display: contents;
 }
@@ -58,15 +60,18 @@ h1{
 
 h4{
     font-size: 20px;
+    cursor: pointer;
 }
-
+h4:hover{
+    color: hsl(35, 77%, 62%);
+}
 p{
     color: hsl(233, 8%, 79%);
     font-size: 15px;
     margin-top: -15px;
 }
 
-hr{
+hr, .button{
     margin-top: 25px;
 }
 
@@ -94,9 +99,10 @@ h2{
     display: inline-block;
     font-size: 20px;
     cursor: pointer;
-    margin-top: 25px;
 }
-
+.button:hover{
+    background-color: hsl(240, 100%, 5%);
+}
 .info{
     color: hsl(236, 13%, 42%);
     margin-top: 25px;
@@ -143,9 +149,17 @@ h3{
 }
 h5{
     font-size: 16px;
+    cursor: pointer;
 }
 .attribution{
     margin-top: 10px;
     display: flex;
     justify-content: center;
+}
+
+.toggle{
+    display: none;
+}
+.movile{
+    display: none;
 }
